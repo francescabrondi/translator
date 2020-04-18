@@ -1,0 +1,66 @@
+* {
+  background-color: #242424;
+}
+
+span {
+  color: orange;
+}
+
+h1,
+h2 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: "IM Fell English", serif;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.Description {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#translationInput {
+  justify-content: center;
+  width: 800px;
+  height: 50px;
+  background-color: white;
+  margin-left: 22%;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.Insert,
+.Translation {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  color: white;
+  margin-left: 22%;
+}
+
+.Result {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  color: white;
+  margin-left: 22%;
+  margin-right: 21%;
+  padding: 10px;
+}
+
+button {
+  background-color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-left: 22%;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
