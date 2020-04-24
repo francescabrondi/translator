@@ -64,3 +64,60 @@ button {
   margin-top: 20px;
   margin-bottom: 70px;
 }
+
+@media screen and (max-width: 992px) {
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .Description {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  #translationInput {
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    margin-left: 12%;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .Insert,
+  .Translation {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    margin-left: 22%;
+  }
+
+  .Result {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    margin-left: 12%;
+    margin-right: 21%;
+    padding: 10px;
+  }
+
+  button {
+    background-color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-left: 12%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
